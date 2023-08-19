@@ -719,4 +719,71 @@ body {
 }
 
 
+/*! media query  */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .header .logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .header {
+        position: unset;
+    }
+    .header .nav ul {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .header .nav li {
+        display: block;
+    }
+    .header .nav ul li a {
+        margin: 10px;
+    }
+    .dropdown-menu {
+        left: -50%;
+        top: 100%;
+    }
+    .home-content {
+        width: 80%;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+    }
+    .home .title {
+        font-size: 40px;
+    }
+    .home-desc {
+        font-size: 16px;
+    }
+    .section-title {
+        font-size: 30px;
+    }
+    .item,
+    .item.mg,
+    .portfolio-item,
+    .portfolio-item.mg,
+    .offer-item,
+    .offer-item.mg,
+    .services-item,
+    .price-item,
+    .price-item.mg {
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+        padding: 25px 15px;
+    }
+    .services-p,
+    .number-desc,
+    .pricing-item-text {
+        padding-right: 0;
+    }
+}
+
+
 /* ----------------------------------------*/
